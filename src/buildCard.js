@@ -16,7 +16,7 @@ function buildCard(employee) {
   return `<section class="card">
         <div class="card-header">
           <h2>${employee.getName()}</h2>
-          <h3><i class="fas fa-${icon}"></i>${employee.getRole()}</h3>
+          <h3><i class="fas fa-${icon}"></i>  ${employee.getRole()}</h3>
         </div>
         <div class="card-body">
           <p>ID: ${employee.getId()}</p>
